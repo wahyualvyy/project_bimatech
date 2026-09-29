@@ -138,12 +138,20 @@ export interface Translations {
   testimonials: {
     label: string;
     title: string;
-    items: {
-      name: string;
-      role: string;
-      company: string;
-      content: string;
-    }[];
+    loading: string;
+    empty: string;
+    saving: string;
+    loadError: string;
+    saveError: string;
+    unavailable: string;
+    invalidInput: string;
+    customer: string;
+    previous: string;
+    next: string;
+    slide: string;
+    stars: string;
+    ratingDescription: string;
+
     form: {
       title: string;
       description: string;
@@ -592,43 +600,20 @@ export const translations: Record<Locale, Translations> = {
     testimonials: {
       label: "Testimoni",
       title: "Apa Kata Pelanggan Kami",
-      items: [
-        {
-          name: "Pelanggan",
-          role: "Pemilik Warnet",
-          company: "Ciwaringin",
-          content:
-            "BIMATECH sangat membantu dalam setup jaringan warnet saya. Harga terjangkau dan pekerjaan rapi. Sangat merekomendasikan!",
-        },
-        {
-          name: "Pelanggan",
-          role: "Mahasiswa",
-          company: "Ciwaringin",
-          content:
-            "Laptop saya yang sering hang sekarang lancar lagi setelah di-upgrade RAM dan SSD di BIMATECH. Pelayanan cepat dan ramah!",
-        },
-        {
-          name: "Pelanggan",
-          role: "Karyawan",
-          company: "Ciwaringin",
-          content:
-            "Data penting di hard disk saya berhasil diselamatkan oleh BIMATECH. Sangat profesional dan harga juga masuk akal.",
-        },
-        {
-          name: "Pelanggan",
-          role: "Pengusaha",
-          company: "Ciwaringin",
-          content:
-            "Pemasangan CCTV di toko kami berjalan lancar. Teknisi sangat paham dan ramah. Sekarang bisa pantau toko dari HP.",
-        },
-        {
-          name: "Pelanggan",
-          role: "Guru",
-          company: "Ciwaringin",
-          content:
-            "Service printer di sini cepat sekali. Printer Epson saya yang mampet langsung bisa dipakai lagi hari itu juga.",
-        },
-      ],
+      loading: "Memuat testimoni...",
+      empty: "Belum ada testimoni. Bagikan pengalaman Anda melalui formulir di bawah.",
+      saving: "Menyimpan...",
+      loadError: "Testimoni belum dapat dimuat. Silakan muat ulang halaman.",
+      saveError: "Testimoni gagal disimpan. Periksa isian dan coba lagi.",
+      unavailable: "Pengiriman testimoni sementara belum tersedia. Pengelola perlu memeriksa konfigurasi penyimpanan. Isian Anda belum tersimpan.",
+      invalidInput: "Periksa nama, email, pekerjaan / asal, rating, dan pesan Anda sebelum mengirim ulang.",
+      customer: "Pelanggan",
+      previous: "Testimoni sebelumnya",
+      next: "Testimoni berikutnya",
+      slide: "Buka slide",
+      stars: "bintang",
+      ratingDescription: "dari 5 bintang",
+
       form: {
         title: "Tinggalkan Testimoni",
         description: "Bagikan pengalaman Anda menggunakan layanan BIMATECH.",
@@ -1077,43 +1062,20 @@ export const translations: Record<Locale, Translations> = {
     testimonials: {
       label: "Testimonials",
       title: "What Our Customers Say",
-      items: [
-        {
-          name: "Customer",
-          role: "Internet Café Owner",
-          company: "Ciwaringin",
-          content:
-            "BIMATECH was very helpful in setting up my internet café network. Affordable price and neat work. Highly recommended!",
-        },
-        {
-          name: "Customer",
-          role: "Student",
-          company: "Ciwaringin",
-          content:
-            "My laptop that kept freezing is now running smoothly after RAM and SSD upgrade at BIMATECH. Fast and friendly service!",
-        },
-        {
-          name: "Customer",
-          role: "Employee",
-          company: "Ciwaringin",
-          content:
-            "My important data on the hard disk was successfully recovered by BIMATECH. Very professional and the price was reasonable too.",
-        },
-        {
-          name: "Customer",
-          role: "Business Owner",
-          company: "Ciwaringin",
-          content:
-            "CCTV installation in our store went smoothly. Technicians are very knowledgeable and friendly. Now we can monitor the store from our phones.",
-        },
-        {
-          name: "Customer",
-          role: "Teacher",
-          company: "Ciwaringin",
-          content:
-            "Printer service here is incredibly fast. My clogged Epson printer was ready to use again the very same day.",
-        },
-      ],
+      loading: "Loading testimonials...",
+      empty: "No testimonials yet. Share your experience using the form below.",
+      saving: "Saving...",
+      loadError: "Unable to load testimonials. Please reload the page.",
+      saveError: "Unable to save your testimonial. Check your entries and try again.",
+      unavailable: "Testimonial submissions are temporarily unavailable. The administrator needs to check the storage configuration. Your entry has not been saved.",
+      invalidInput: "Check your name, email, occupation / location, rating, and message before submitting again.",
+      customer: "Customer",
+      previous: "Previous testimonial",
+      next: "Next testimonial",
+      slide: "Go to slide",
+      stars: "stars",
+      ratingDescription: "out of 5 stars",
+
       form: {
         title: "Leave a Testimonial",
         description: "Share your experience using BIMATECH services.",
