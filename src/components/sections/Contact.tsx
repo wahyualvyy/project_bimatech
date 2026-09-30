@@ -356,7 +356,7 @@ ${formData.message}`;
         >
           <div className="h-[350px] w-full lg:h-[450px]">
             <iframe
-              title="Lokasi BIMATECH - Ciwaringin"
+              title="Lokasi BIMATECH - Dusun III RT 000 RW 000 Desa Were Kecamatan Weda"
               src="https://maps.google.com/maps?q=0.3317288,127.8726499&t=&z=17&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"

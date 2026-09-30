@@ -28,7 +28,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - **Nama Perusahaan**: BIMATECH
 - **Email**: `bimatech13@gmail.com`
 - **WhatsApp / Telepon**: `0822-9111-6343`
-- **Lokasi**: `Ciwaringin`
+- **Lokasi**: `Dusun III RT 000 RW 000 Desa Were Kecamatan Weda`
 - **Jam Operasional**: `Senin-Sabtu; jam 08.00-20.00`
 - **Visi**: Kepuasan konsumen atas jasa service serta produk merupakan hal yang paling kami utamakan.
 - **Misi**: Untuk memberikan produk dan jasa dengan harga yang terjangkau untuk memenuhi kebutuhan konsumen.

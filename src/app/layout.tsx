@@ -17,14 +17,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "BIMATECH | BIMATECH",
   description:
-    "BIMATECH menyediakan layanan service komputer profesional — perbaikan hardware, instalasi software, dan perawatan berkala dengan harga terjangkau di Ciwaringin.",
+    "BIMATECH menyediakan layanan service komputer profesional — perbaikan hardware, instalasi software, dan perawatan berkala dengan harga terjangkau di Dusun III RT 000 RW 000 Desa Were Kecamatan Weda.",
   keywords: [
     "BIMATECH",
     "BIMATECH",
     "service komputer",
     "perbaikan hardware",
     "instalasi software",
-    "Ciwaringin",
+    "Dusun III RT 000 RW 000 Desa Were Kecamatan Weda",
     "service laptop",
     "upgrade komputer",
     "recovery data",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "BIMATECH | BIMATECH",
     description:
-      "BIMATECH menyediakan layanan service komputer profesional — perbaikan hardware, instalasi software, dan perawatan berkala dengan harga terjangkau di Ciwaringin.",
+      "BIMATECH menyediakan layanan service komputer profesional — perbaikan hardware, instalasi software, dan perawatan berkala dengan harga terjangkau di Dusun III RT 000 RW 000 Desa Were Kecamatan Weda.",
     url: "https://BIMATECH.example.com",
     siteName: "BIMATECH",
     locale: "id_ID",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "BIMATECH | BIMATECH",
     description:
-      "BIMATECH menyediakan layanan service komputer profesional — perbaikan hardware, instalasi software, dan perawatan berkala dengan harga terjangkau di Ciwaringin.",
+      "BIMATECH menyediakan layanan service komputer profesional — perbaikan hardware, instalasi software, dan perawatan berkala dengan harga terjangkau di Dusun III RT 000 RW 000 Desa Were Kecamatan Weda.",
   },
   robots: {
     index: true,

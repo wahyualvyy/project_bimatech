@@ -643,7 +643,7 @@ export const translations: Record<Locale, Translations> = {
         "Punya masalah dengan komputer Anda? Hubungi BIMATECH dan kami siap membantu.",
       info: {
         addressLabel: "Lokasi",
-        addressValue: "Ciwaringin",
+        addressValue: "Dusun III RT 000 RW 000 Desa Were Kecamatan Weda",
         phoneLabel: "Telepon / WhatsApp",
         phoneValue: "0822-9111-6343",
         emailLabel: "Email",
@@ -672,7 +672,7 @@ export const translations: Record<Locale, Translations> = {
 
     footer: {
       tagline:
-        "BIMATECH — Solusi terpercaya untuk perbaikan dan perawatan komputer Anda dengan harga terjangkau di Ciwaringin.",
+        "BIMATECH — Solusi terpercaya untuk perbaikan dan perawatan komputer Anda dengan harga terjangkau di Dusun III RT 000 RW 000 Desa Were Kecamatan Weda.",
       quickLinks: "Tautan Cepat",
       servicesTitle: "Layanan",
       followUs: "Ikuti Kami",
@@ -1105,7 +1105,7 @@ export const translations: Record<Locale, Translations> = {
         "Having problems with your computer? Contact BIMATECH and we're ready to help.",
       info: {
         addressLabel: "Location",
-        addressValue: "Ciwaringin",
+        addressValue: "Dusun III RT 000 RW 000 Desa Were Kecamatan Weda",
         phoneLabel: "Phone / WhatsApp",
         phoneValue: "0822-9111-6343",
         emailLabel: "Email",
@@ -1135,7 +1135,7 @@ export const translations: Record<Locale, Translations> = {
 
     footer: {
       tagline:
-        "BIMATECH — Your trusted solution for computer repair and maintenance at affordable prices in Ciwaringin.",
+        "BIMATECH — Your trusted solution for computer repair and maintenance at affordable prices in Dusun III RT 000 RW 000 Desa Were Kecamatan Weda.",
       quickLinks: "Quick Links",
       servicesTitle: "Services",
       followUs: "Follow Us",
